@@ -1,0 +1,40 @@
+
+store(&VERSION) '10.0'
+store(&NAME) 'iPhoneArabicKeyboardWithNewLetter'
+store(&TARGETS) 'any'
+
+begin Unicode > use(Main)
+
+group(Main) using keys
++ [K_Q] > 'ض'
++ [K_W] > 'ص'
++ [K_E] > 'ث'
++ [K_R] > 'ق'
++ [K_T] > 'ف'
++ [K_Y] > 'غ'
++ [K_U] > 'ع'
++ [K_I] > 'ه'
++ [K_O] > 'خ'
++ [K_P] > 'ح'
++ [K_A] > 'ش'
++ [K_S] > 'س'
++ [K_D] > 'ي'
++ [K_F] > 'ب'
++ [K_G] > 'ل'
++ [K_H] > 'ا'
++ [K_J] > 'ت'
++ [K_K] > 'ن'
++ [K_L] > 'م'
++ [K_Z] > 'ئ'
++ [K_X] > 'ء'
++ [K_C] > 'ؤ'
++ [K_V] > 'ر'
++ [K_B] > 'لا'
++ [K_N] > 'ى'
++ [K_M] > 'ة'
++ [K_COMMA] > 'و'
++ [K_PERIOD] > 'ز'
++ [K_SLASH] > 'ظ'
++ [K_SEMICOLON] > 'ڦ'  c الحرف الجديد بجانب ك
++ [K_SPACE] > ' '
++ [SHIFT] > shift()
