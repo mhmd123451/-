@@ -1,0 +1,14 @@
+{
+  "keyboardLayout": "Arabic",
+  "customLetters": [
+    "ء",
+    "ؤ",
+    "إ",
+    "آ"
+  ],
+  "settings": {
+    "fontSize": 14,
+    "theme": "dark",
+    "autoCorrect": false
+  }
+}
